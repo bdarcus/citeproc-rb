@@ -20,15 +20,26 @@ extending the range of formats supported.
 
 The basic classes of Citeproc-rb is as follows:
 
-Citeproc        - the main process for Citeproc; controls the processing
-                  pipeline
-InputFilter     - converts input sources and provides a standard interface for
-                  retrieving citation data
-Csl             - the CSL object model
-CslParser       - parses CSL rules into an object model
-CslProcessor    - processes citations according to the CSL rules
-BaseFormatter   - formats citations in plain text
-XhtmlFormatter  - formats citations in XHTML
+Citeproc  
+:    the main process for Citeproc; controls the processing pipeline
+
+InputFilter 
+:    converts input sources and provides a standard interface for
+     retrieving citation data
+
+Csl
+:    the CSL object model
+
+CslParser
+:    parses CSL rules into an object model
+
+CslProcessor 
+:    processes citations according to the CSL rules
+
+BaseFormatter 
+:    formats citations in plain text
+
+:    XhtmlFormatter  - formats citations in XHTML
 
 Together these classes form a processing pipeline: the Citeproc controls 
 filtering citations input; the parsing of CSL rules; and 
